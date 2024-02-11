@@ -1,0 +1,190 @@
+*{
+    font-weight: bold;
+}
+body{
+    margin-right: 0;
+    margin-left: 10px;
+    padding-left: 30px;
+    background: #e3e9ee;
+}
+a{
+    font-size: 15px;
+}
+h1{
+    font-size: 20px;
+}
+
+.main-section{
+    width: 100%;
+    height: 90vh;
+}
+
+/*Left panel*/
+.main-inner-left-section{
+    min-height: 90vh;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.main-inner-left-section-content-holder{
+    height: 90vh;
+    overflow-y: auto;
+}
+.navbar-brand-logo{
+    height: 10vh;
+    padding: 0;
+}
+.navbar-brand-logo img{
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    border-radius: 10px;
+}
+.navbar{
+    height: 57vh;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.navbar ul li{
+    margin-top: auto;
+}
+.navbar ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.navbar ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+.advert-card{
+    margin-top: 5px;
+    width: 100%;
+    height: 40vh;
+    background: white;
+    border-radius: 10px;
+}
+
+/*Right panel*/
+.main-inner-right-section{
+    min-height: 90vh;
+    display: block;
+}
+.main-right-top{
+    margin-top: 10px;
+    height: 5vh;
+    display: flex;
+}
+.form-search{
+    width: 50%;
+    float: left;
+}
+.form-search input{
+    width: 70%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.form-search button{
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn-search:hover {
+    background-color: #555;
+    color: white;
+}
+
+.profile-btn-holder{
+    float: right;
+    width: 50%;
+    display: flex;
+}
+.profile-btn-holder .profile-empty{
+    width: 60%;
+}
+.profile-btn-inner-holder{
+    width: 40%;
+}
+.profile-btn-inner-holder a{
+    margin: auto;
+}
+.profile-btn-signout{
+    color: #000;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.profile-btn-signout:hover{
+    background-color: #555;
+    color: white;
+}
+.profile-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.profile-btn img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+.main-right-bottom{
+    margin-top: 10px;
+    height: 80vh;
+    padding: 20px;
+    border-radius: 10px;
+}
+.main-right-bottom .main-right-bottom-top{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+.main-right-bottom .main-right-bottom-top .home-display-card{
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    background: #e3e9ee;
+}
+
+.main-right-bottom .main-right-bottom-bottom{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+.main-right-bottom .main-right-bottom-bottom .home-display-card{
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    background: #e3e9ee;
+}
+.home-display-card h1{
+    color: black;
+}
+.home-display-card h1 span{
+    color: gold;
+}
+.home-display-card a{
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.home-display-card a:hover {
+    background-color: #555;
+    color: white;
+}
